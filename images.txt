@@ -1,14 +1,1 @@
-nginx
-jenkins/jenkins
-openjdk
-sonarqube
-cym1102/nginxwebui
-postgres
-mysql
-jellyfin/jellyfin
-registry.cn-hangzhou.aliyuncs.com/devops_hu/kooder:v1.0.1
-sonatype/nexus3
-gitlab/gitlab-ce
-tomcat:9.0.98-jdk8
-redis
 open-webui
