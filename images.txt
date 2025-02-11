@@ -12,3 +12,4 @@ gitlab/gitlab-ce
 tomcat:9.0.98-jdk8
 redis
 ghcr.io/open-webui/open-webui:main
+chatbot-ui
