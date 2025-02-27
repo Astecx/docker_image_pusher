@@ -8,6 +8,7 @@ sonarqube
 cym1102/nginxwebui
 postgres
 mysql
+mysql:8.0.39
 jellyfin/jellyfin
 registry.cn-hangzhou.aliyuncs.com/devops_hu/kooder:v1.0.1
 sonatype/nexus3
