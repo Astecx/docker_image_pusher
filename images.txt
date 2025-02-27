@@ -18,6 +18,7 @@ ghcr.io/open-webui/open-webui:main
 noneabove1182/lollms-webui-docker
 langgenius/dify-web:1.0.0-beta.1
 langgenius/dify-api:1.0.0-beta.1
+langgenius/dify-web:release-0.15.3-fix1
 langgenius/dify-web:0.15.3
 langgenius/dify-api:0.15.3
 langgenius/dify-web:0.15.0
