@@ -1,5 +1,7 @@
 xprobe/xinference:latest-cpu
-xprobe/xinference:1.2.2-cpu
+xprobe/xinference:v1.2.2-cpu
+langgenius/dify-web:1.0.0
+langgenius/dify-api:1.0.0
 docker.elastic.co/elasticsearch/elasticsearch:8.11.3
 infiniflow/infinity:v0.6.0-dev3
 infiniflow/ragflow:v0.16.0
