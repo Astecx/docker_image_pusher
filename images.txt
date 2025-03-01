@@ -1,3 +1,7 @@
+langgenius/dify-plugin-daemon:0.0.3-local
+
+
+
 xprobe/xinference:v1.0.0-cpu
 nginx
 jenkins/jenkins
