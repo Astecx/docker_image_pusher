@@ -1,4 +1,4 @@
-golang:1.22-alpine
+docker.io/library/ubuntu:24.04
 nginx
 jenkins/jenkins
 openjdk
