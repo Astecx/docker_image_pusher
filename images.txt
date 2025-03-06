@@ -1,4 +1,4 @@
-langgenius/dify-plugin-daemon:0.0.3-local
+python:3.10-slim-bookworm
 nginx
 jenkins/jenkins
 openjdk
