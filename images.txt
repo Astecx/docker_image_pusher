@@ -1,4 +1,4 @@
-docker.io/library/ubuntu:24.04
+langgenius/dify-plugin-daemon:0.0.3-local
 nginx
 jenkins/jenkins
 openjdk
