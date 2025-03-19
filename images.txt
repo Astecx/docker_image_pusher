@@ -1,4 +1,4 @@
-infiniflow/ragflow:v0.17.2
+amilys/embyserver
 nginx
 jenkins/jenkins
 openjdk
