@@ -1,3 +1,4 @@
+zoneminder/zoneminder
 shinobisystems/shinobi:latest
 ghcr.io/blakeblackshear/frigate:stable
 helloz/onenav
