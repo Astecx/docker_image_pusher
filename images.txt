@@ -1,4 +1,4 @@
-zoneminder/zoneminder
+doitandbedone/agent-dvr:latest
 shinobisystems/shinobi:latest
 ghcr.io/blakeblackshear/frigate:stable
 helloz/onenav
