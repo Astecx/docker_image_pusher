@@ -1,6 +1,4 @@
-doitandbedone/agent-dvr:latest
-shinobisystems/shinobi:latest
-ghcr.io/blakeblackshear/frigate:stable
+rustdesk/rustdesk-server:latest
 helloz/onenav
 mereith/van-nav
 amilys/embyserver
