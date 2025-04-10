@@ -1,7 +1,6 @@
 langgenius/dify-plugin-daemon:0.0.7-local
 langgenius/dify-api:1.2.0
 langgenius/dify-web:1.2.0
-gitlab/gitlab-ce:16.8.1
 postgres:16.3.1
 jxxghp/moviepilot-v2
 linuxserver/qbittorrent
