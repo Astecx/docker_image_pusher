@@ -1,6 +1,6 @@
 langgenius/dify-plugin-daemon:0.2.0-local
-langgenius/dify-api:1.7.0
-langgenius/dify-web:1.7.0
+langgenius/dify-api:1.7.2
+langgenius/dify-web:1.7.2
 jxxghp/moviepilot-v2
 eclipse-temurin:17-jdk
 linuxserver/qbittorrent
