@@ -20,7 +20,7 @@ postgres
 mysql
 jellyfin/jellyfin
 sonatype/nexus3
-gitlab/gitlab-ce:17.10.4
+gitlab/gitlab-ce:17.10.4-ce.0
 gitlab/gitlab-ce
 redis
 ghcr.io/open-webui/open-webui:main
