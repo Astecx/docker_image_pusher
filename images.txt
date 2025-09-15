@@ -12,7 +12,7 @@ mereith/van-nav
 amilys/embyserver
 jeessy/ddns-go
 nginx
-jenkins/jenkins
+jenkins/jenkins: 2.516.2
 openjdk
 sonarqube
 cym1102/nginxwebui
