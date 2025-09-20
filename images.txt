@@ -2,6 +2,7 @@ langgenius/dify-plugin-daemon:0.2.0-local
 langgenius/dify-api:1.8.1
 langgenius/dify-web:1.8.1
 jxxghp/moviepilot-v2
+easychen/cookiecloud
 eclipse-temurin:17-jdk
 linuxserver/qbittorrent
 linuxserver/transmission:4.0.6
