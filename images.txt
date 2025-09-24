@@ -1,6 +1,6 @@
 langgenius/dify-plugin-daemon:0.2.0-local
-langgenius/dify-api:1.8.1
-langgenius/dify-web:1.8.1
+langgenius/dify-api:1.9.0
+langgenius/dify-web:1.9.0
 jxxghp/moviepilot-v2
 easychen/cookiecloud
 eclipse-temurin:17-jdk
@@ -21,7 +21,6 @@ postgres
 mysql
 jellyfin/jellyfin
 sonatype/nexus3
-gitlab/gitlab-ce:17.10.4-ce.0
 gitlab/gitlab-ce
 redis
 ghcr.io/open-webui/open-webui:main
