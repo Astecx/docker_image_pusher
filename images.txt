@@ -4,6 +4,8 @@ langgenius/dify-web:1.9.0
 oceanbase/oceanbase-ce:4.3.5-lts
 opengauss/opengauss:7.0.0-RC1
 matrixorigin/matrixone:2.1.1
+postgres:15-alpine
+redis:6-alpine
 jxxghp/moviepilot-v2
 easychen/cookiecloud
 eclipse-temurin:17-jdk
