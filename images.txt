@@ -10,16 +10,10 @@ cozedev/coze-studio-web:latest
 langgenius/dify-plugin-daemon:0.3.0-local
 langgenius/dify-api:1.9.1
 langgenius/dify-web:1.9.1
-oceanbase/oceanbase-ce:4.3.5-lts
-opengauss/opengauss:7.0.0-RC1
-matrixorigin/matrixone:2.1.1
 postgres:15-alpine
-redis:6-alpine
 jxxghp/moviepilot-v2
 easychen/cookiecloud
-eclipse-temurin:17-jdk
 linuxserver/qbittorrent
-linuxserver/transmission:4.0.6
 iyuucn/iyuuplus-dev
 rustdesk/rustdesk-server
 helloz/onenav
@@ -36,7 +30,6 @@ mysql
 jellyfin/jellyfin
 sonatype/nexus3
 gitlab/gitlab-ce
-redis
 ghcr.io/open-webui/open-webui:main
 noneabove1182/lollms-webui-docker
 ubuntu/squid
