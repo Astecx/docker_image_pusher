@@ -10,7 +10,6 @@ helloz/onenav
 jeessy/ddns-go
 nginx
 jenkins/jenkins
-openjdk
 sonarqube
 cym1102/nginxwebui
 postgres
