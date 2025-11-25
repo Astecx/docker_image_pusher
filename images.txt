@@ -1,6 +1,7 @@
 langgenius/dify-plugin-daemon:0.4.1-local
 langgenius/dify-api:1.10.0
 langgenius/dify-web:1.10.0
+semitechnologies/weaviate:1.27.0
 jxxghp/moviepilot-v2
 easychen/cookiecloud
 linuxserver/qbittorrent
