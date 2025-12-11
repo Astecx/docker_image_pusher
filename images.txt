@@ -1,4 +1,3 @@
-openjdk:17-jdk-slim
 eclipse-temurin:17-jre-alpine
 jxxghp/moviepilot-v2
 easychen/cookiecloud
