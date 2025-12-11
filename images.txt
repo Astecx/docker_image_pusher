@@ -1,5 +1,4 @@
-langgenius/dify-api:1.10.1
-langgenius/dify-web:1.10.1
+openjdk:17-jdk-slim
 jxxghp/moviepilot-v2
 easychen/cookiecloud
 linuxserver/qbittorrent
