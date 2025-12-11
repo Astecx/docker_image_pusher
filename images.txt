@@ -1,4 +1,4 @@
-eclipse-temurin:17-jre-alpine
+node:16
 jxxghp/moviepilot-v2
 easychen/cookiecloud
 linuxserver/qbittorrent
