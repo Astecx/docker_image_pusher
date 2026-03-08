@@ -1,7 +1,7 @@
 agentscope/copaw:latest
-langgenius/dify-plugin-daemon:0.5.1-local
-langgenius/dify-web:1.11.1
-langgenius/dify-api:1.11.1
+langgenius/dify-plugin-daemon:0.5.3-local
+langgenius/dify-web:1.13.0
+langgenius/dify-api:1.13.0
 jxxghp/moviepilot-v2
 easychen/cookiecloud
 linuxserver/qbittorrent
