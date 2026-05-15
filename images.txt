@@ -11,7 +11,6 @@ matrixorigin/matrixone:2.1.1
 oceanbase/seekdb:latest
 opengauss/opengauss:7.0.0-RC1
 milvusdb/milvus:v2.6.3
-vastdata/vastbase-vector
 jxxghp/moviepilot-v2
 easychen/cookiecloud
 linuxserver/qbittorrent
