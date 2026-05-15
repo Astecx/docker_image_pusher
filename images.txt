@@ -1,7 +1,7 @@
 nacos/nacos-server:latest
 agentscope/copaw:latest
 busybox:latest
-langgenius/dify-plugin-daemon:0.6.0local
+langgenius/dify-plugin-daemon:0.6.0-local
 langgenius/dify-sandbox:0.2.15
 langgenius/dify-web:1.14.1
 langgenius/dify-api:1.14.1
