@@ -1,4 +1,4 @@
-osminogin/tor-simple
+dperson/torproxy
 henrygd/beszel
 eclipse-temurin:8-jdk
 nacos/nacos-server:latest
