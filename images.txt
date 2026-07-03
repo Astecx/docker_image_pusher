@@ -1,3 +1,4 @@
+osminogin/tor-simple
 henrygd/beszel
 eclipse-temurin:8-jdk
 nacos/nacos-server:latest
