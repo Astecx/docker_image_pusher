@@ -1,3 +1,5 @@
+zabbix/zabbix-server-pgsql:alpine-7.4-latest
+zabbix/zabbix-web-nginx-pgsql:alpine-7.4-latest
 ghcr.io/home-assistant/home-assistant:stable
 dperson/torproxy
 henrygd/beszel
