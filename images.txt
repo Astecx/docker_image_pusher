@@ -1,3 +1,4 @@
+luuul/4get:latest
 grafana/grafana:latest
 zabbix/zabbix-agent:alpine-7.4-latest
 zabbix/zabbix-server-pgsql:alpine-7.4-latest
