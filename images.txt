@@ -1,4 +1,4 @@
-linuxserver/qbittorrent:5.2.0
+linuxserver/qbittorrent:5.1.4
 henrygd/beszel
 eclipse-temurin:8-jdk
 nacos/nacos-server:latest
