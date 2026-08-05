@@ -4,10 +4,10 @@ eclipse-temurin:8-jdk
 nacos/nacos-server:latest
 agentscope/copaw:latest
 busybox:latest
-langgenius/dify-plugin-daemon:0.6.0-local
+langgenius/dify-plugin-daemon:0.6.3-local
 langgenius/dify-sandbox:0.2.15
-langgenius/dify-web:1.14.1
-langgenius/dify-api:1.14.1
+langgenius/dify-web:1.16.1
+langgenius/dify-api:1.16.1
 oceanbase/oceanbase-ce:4.3.5-lts
 langgenius/qdrant:v1.8.3
 matrixorigin/matrixone:2.1.1
