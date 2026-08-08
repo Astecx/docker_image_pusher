@@ -1,3 +1,4 @@
+postgres:17.10-alpine
 linuxserver/qbittorrent:5.1.4
 henrygd/beszel
 eclipse-temurin:8-jdk
