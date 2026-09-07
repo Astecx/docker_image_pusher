@@ -1,3 +1,4 @@
+coturn/coturn:latest
 ossrs/srs:6
 jxxghp/moviepilot-v3:latest
 postgres:17.10-alpine
