@@ -1,3 +1,5 @@
+golang:1.24-bookworm
+node:20-bookworm-slim
 coturn/coturn:latest
 ossrs/srs:6
 jxxghp/moviepilot-v3:latest
