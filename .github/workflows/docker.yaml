@@ -14,7 +14,6 @@ env:
   ALIYUN_REGISTRY_PASSWORD: "${{ secrets.ALIYUN_REGISTRY_PASSWORD }}"
 
 jobs:
-
   build:
     name: Pull
     runs-on: ubuntu-latest
@@ -26,19 +25,17 @@ jobs:
         df -hT
         echo "=============================================================================="
 
-    # 增加可用磁盘空间
+    # ========== 改动1：build-mount-path 改成根目录，不要绑定到 /var/lib/docker ==========
     - name: Maximize build space
       uses: easimon/maximize-build-space@master
       with:
-
         root-reserve-mb: 2048
         swap-size-mb: 128
         remove-dotnet: 'true'
         remove-haskell: 'true'
-        # 如果空间还是不够用，可以把以下开启，清理出更多空间
-        # remove-android: 'true'
-        # remove-codeql: 'true'
-        build-mount-path: '/var/lib/docker/'
+        remove-android: 'true'   # 打开，多释放空间，这个任务不需要android
+        remove-codeql: 'true'    # 打开，继续释放
+        # build-mount-path: '/var/lib/docker/'  删掉这一行！！
 
     - name: Restart docker
       run: sudo service docker restart
@@ -118,7 +115,7 @@ jobs:
                 platform_prefix="${platform//\//_}_"
             fi
             echo "platform_prefix is $platform_prefix"
-            # 获取镜像的完整名称，例如kasmweb/nginx:1.25.3（命名空间/镜像名:版本号）
+            # 获取镜像的完整名称，例如kasmweb/nginx:1.25.3
             image=$(echo "$line" | awk '{print $NF}')
 
             # 获取 镜像名:版本号  例如nginx:1.25.3
@@ -150,6 +147,9 @@ jobs:
             echo "=============================================================================="
             docker rmi $image
             docker rmi $new_image
+            # ========== 改动2：每次循环结束执行prune，回收containerd层！重点！ ==========
+            docker system prune -f
+            docker builder prune -f
             echo "磁盘空间清理完毕"
             echo "=============================================================================="
             df -hT
