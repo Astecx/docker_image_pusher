@@ -50,7 +50,7 @@ jobs:
             fi
         done < images.txt
 
-        # 第二轮：逐个镜像同步，按平台复制，不带--all
+        # 第二轮：逐个镜像同步，使用 override-os / override-arch
         while IFS= read -r line || [ -n "$line" ]; do
             [[ -z "$line" ]] && continue
             if echo "$line" | grep -q '^\s*#'; then continue; fi
@@ -63,6 +63,10 @@ jobs:
             else
               platform_prefix="${platform//\//_}_"
             fi
+
+            # 拆分 os / arch
+            os=${platform%/*}
+            arch=${platform#*/}
 
             image=$(echo "$line" | awk '{print $NF}')
             image="${image%%@*}"
@@ -80,5 +84,5 @@ jobs:
             new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$platform_prefix$name_space_prefix$image_name_tag"
 
             echo "===== Copy $image [$platform] ==> $new_image ====="
-            skopeo copy --platform "$platform" "docker://$image" "docker://$new_image"
+            skopeo copy --override-os "$os" --override-arch "$arch" "docker://$image" "docker://$new_image"
         done < images.txt
