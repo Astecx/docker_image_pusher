@@ -36,3 +36,4 @@ searxng/searxng
 ghcr.io/huggingface/text-embeddings-inference
 xprobe/xinference
 
+
