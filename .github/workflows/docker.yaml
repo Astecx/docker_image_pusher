@@ -71,6 +71,6 @@ jobs:
             fi
             image_name_tag="${image_name_tag%%@*}"
             new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$platform_prefix$name_space_prefix$image_name_tag"
-            echo "skopeo copy --all docker://$image docker://$new_image"
-            skopeo copy --all "docker://$image" "docker://$new_image"
+            echo "skopeo copy --format v2s2 --all docker://$image docker://$new_image"
+            skopeo copy --format v2s2 --all "docker://$image" "docker://$new_image"
         done < images.txt
